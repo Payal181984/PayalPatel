@@ -1,0 +1,141 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    background-color:white;
+    
+}
+
+.payal{
+    background-color: #1c1d25;;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 600px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+li{
+    width: 200px;
+    text-decoration: none;
+    
+}
+h1{
+    font-size: 90px;
+    margin: 0;
+}
+P{
+    margin: 0;
+    font-weight: 300;
+    font-size: 30px;
+    
+}
+.payal-text{
+    margin-left: 40px;
+    margin-bottom: 200px;
+}
+.button{
+    width: 200px;
+    height:55px;
+    background-color: coral;
+    border-radius: 30px;
+    text-align: center;
+    padding-top:  5px;
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.payal-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.button:hover{
+    background-color: #ef744b;
+}
+.button:active{
+    background-color: #a9a9a9;
+    color: #808080;
+}
+.socials{
+    padding-bottom: 200px;
+}
+.logo{
+    height: 100px;
+    margin: 30px;
+    border-radius: 100px;
+}
+.social{
+    margin: 20px;
+}
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+h2{
+    font-size: 30px;
+    margin: auto;
+}
+.headshot{
+    width: 300px;
+    border-radius: 250px;
+}
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.project-card {
+    width: 300px;
+    height: 500px;
+    font-size: 20px;
+    box-shadow: 5px 5px 20px rgb(139, 138, 138);
+
+}
+.project-container {
+    display: flex;
+    justify-content: space-around;   
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.card1{
+    font-size: 15px;
+    font-weight: 300;
+}
+.exp1{
+    font-size: 20px;
+    margin: auto;
+    font-weight: 300;
+    align-items: left;
+    
+}
